@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family:'Roboto', sans-serif;
+}
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(nature.jpg);
+    width: 100%;
+    height: 140vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+.logo{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin-right: 460px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(245, 236, 236);
+    height: 3px;
+    width: 0;
+    left: 50%;
+    top: 100%;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: rgba(231, 240, 252, 0.993);
+}
+nav ul li a:hover::after{
+    left: 0;
+    width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-flow: wrap;
+    
+}
+.card{
+    height: 280px;
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 90px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.box1{
+    background-image: url(auckland.jpeg);
+    cursor: pointer;
+    margin-top: 45px;
+
+}
+.box2{
+    background-image: url(japan.jpg);
+    cursor: pointer;
+    margin-top: 45px;
+
+}
+.box3{
+    background-image: url(switzerland.jpg);
+    cursor: pointer;
+    margin-top: 45px;
+
+}
+.box4{
+    background-image: url(barcelona.jpg);
+    cursor: pointer;
+    margin-top: 45px;
+
+}
+.box5{
+    background-image: url(chicago.jpg);
+    cursor: pointer;
+    margin-top: 95px;
+}
+.box6{
+    background-image: url(hawaii.jpg);
+    cursor: pointer;
+    margin-top: 95px;
+}
+.box7{
+    background-image: url(maldives.jpg);
+    cursor: pointer;
+    margin-top: 95px;
+}
+.box8{
+    background-image: url(egypt.jpg);
+    cursor: pointer;
+    margin-top: 95px;
+}
+.name1{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.name2{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 275px;
+    margin-top: 15px;
+}
+.name3{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 285px;
+    margin-top: 15px;
+}
+.name4{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 265px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.name5{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 85px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.name6{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 245px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.name7{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 235px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.name8{
+    text-shadow: 0 0 5px #999;
+    color: white;
+    margin-left: 245px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+p{
+    font-size: 10px;
+    text-shadow: 0 0 15px #000;
+}
+.footer{
+    width: 100%;
+    height: 470px;
+    background: #000000;
+}
+.fcontent{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 59px;
+padding-top: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.feedback{
+    margin-top: 10px;
+    margin-left: 33%;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+}
+.fbutton{
+    background: #0081FE;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.11);
+border-radius: 30px;
+color: white;
+margin-left: 45%;
+margin-top: 15px;
+}
+.ftext{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+/* White */
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.line{
+    background: #FFFFFF;
+opacity: 0.3;
+border: 1px solid #FFFFFF;
+align-self: center;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 8px;
+}
+.flogo{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right:30px ;
+}
+.ftxt{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.outer{
+    margin-right: 180px;
+    margin-left: 290px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.last{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.linkedin{
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.instagram{
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.facebook{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.youtube{
+    height: 55px;
+    width: 55px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.partners{
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 5px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    background: #2e4dfc;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+.cart i{
+    position: absolute;
+    margin-left: 90px;
+    column-fill: transparent;
+    transition: 400ms;
+    color: transparent;
+}
+.cart span{
+    transition: 400ms;
+}
+.cart:hover span{
+    margin-right: 30px;
+}
+.cart:hover i{
+    margin-left: 75px;
+    column-fill: white;
+    color: rgb(255, 255, 255);
+}
+button:focus{
+    outline: none;
+}
+.btnspace1{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.btnspace2{
+    margin-left: 185px;
+    margin-top: 15px;
+}
+.btnspace3{
+    margin-left: 180px;
+    margin-top: 15px;
+}
+.btnspace4{
+    margin-left: 185px;
+    margin-top: 15px;
+}
